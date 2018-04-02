@@ -28,7 +28,7 @@
   background-color: #3E3E3B;
   color: #EBECED;
   margin: auto;
-  padding: 2%;
+  padding: 1%;
   text-align: center;
 }
 
@@ -69,7 +69,7 @@ nav a:link, nav a:visited, nav a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 50%;
+  background-size: 40%;
 }
 
 .home h2 {
@@ -130,11 +130,11 @@ nav a:link, nav a:visited, nav a:active {
   flex-wrap: wrap;
   background-color: #EBECED;
   padding: 10%;
-  background-image: url(images/triangle.png);
+  background-image: url(images/triangle-flip.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 50%;
+  background-size: 40%;
 }
 
 .getintouch h1 {
