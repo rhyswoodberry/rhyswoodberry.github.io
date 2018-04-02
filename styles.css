@@ -51,11 +51,10 @@ nav a:hover {
   background-color: #A2AAB0;
 }
 
-nav a:visited, nav a:active {
+nav a:link, nav a:visited, nav a:active {
   color: #EBECED;
   text-decoration: none;
 }
-
 /* Home */
 
 .home {
@@ -73,17 +72,22 @@ nav a:visited, nav a:active {
 
 .whoisrhys {
   display: flex;
+  flex-wrap: wrap;
   background-color: #4C586F;
 }
 
 /* Skills & Projects */
 
 .skillsprojects {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #CBC5C1;
 }
 
 /* Get in Touch! */
 
 .getintouch {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #EBECED;
 }
