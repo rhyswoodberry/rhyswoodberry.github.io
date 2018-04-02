@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* Media Queries */
+@media all and (max-width: 600px) {
+  .main-nav {
+    flex-wrap: wrap;
+  }
+  .main-nav > li {
+    flex-basis: 50%;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .main-nav > li {
+    flex-basis: 100%;
+  }
+}
+
+/* Nav Bar */
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3E3E3B;
+  color: #EBECED;
+  margin: auto;
+  padding: 2%;
+  text-align: center;
+}
+
+.main-nav > li {
+  flex: 1;
+  margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  display: block;
+  padding: 1%;
+}
+
+nav a:hover {
+  color: #EBECED;
+  background-color: #A2AAB0;
+}
+
+nav a:visited, nav a:active {
+  color: #EBECED;
+  text-decoration: none;
+}
+
+/* Home */
+
+.home {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3E3E3B;
+  background-image: url(images/triangle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 50%;
+}
+
+/* Who is Rhys? */
+
+.whoisrhys {
+  display: flex;
+  background-color: #4C586F;
+}
+
+/* Skills & Projects */
+
+.skillsprojects {
+  background-color: #CBC5C1;
+}
+
+/* Get in Touch! */
+
+.getintouch {
+  background-color: #EBECED;
+}
