@@ -22,6 +22,8 @@
 /* Nav Bar */
 .main-nav {
   display: flex;
+  position: fixed;
+  width: 100%;
   justify-content: space-between;
   background-color: #3E3E3B;
   color: #EBECED;
@@ -55,12 +57,14 @@ nav a:link, nav a:visited, nav a:active {
   color: #EBECED;
   text-decoration: none;
 }
-/* Home */
 
+/* Home */
 .home {
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
   background-color: #3E3E3B;
+  padding: 10%;
   background-image: url(images/triangle.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -68,26 +72,71 @@ nav a:link, nav a:visited, nav a:active {
   background-size: 50%;
 }
 
-/* Who is Rhys? */
+.home h2 {
+  color: #A2AAB0;
+}
 
+.home h1 {
+  color: #EBECED
+}
+
+/* Who is Rhys? */
 .whoisrhys {
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
   background-color: #4C586F;
+  padding: 10%;
+}
+
+.whoisrhys h1 {
+  color: #A2AAB0;
+}
+
+.about-content {
+  color: #EBECED;
+}
+
+.whoisrhys li {
+  color:#EBECED;
 }
 
 /* Skills & Projects */
-
 .skillsprojects {
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
   background-color: #CBC5C1;
+  padding: 10%;
+}
+
+.skillsprojects h1 {
+  color: #3E3E3B;
+}
+
+.skillsprojects li {
+  color: #4C586F;
+}
+
+.quiz-app {
+  height: auto;
+  max-width: 282.375px;
 }
 
 /* Get in Touch! */
-
 .getintouch {
+  height: 65vh;
   display: flex;
   flex-wrap: wrap;
   background-color: #EBECED;
+  padding: 10%;
+  background-image: url(images/triangle.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
+  background-size: 50%;
+}
+
+.getintouch h1 {
+  color: #3E3E3B;
 }
