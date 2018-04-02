@@ -60,7 +60,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Home */
 .home {
-  height: 65vh;
+
   display: flex;
   flex-wrap: wrap;
   background-color: #3E3E3B;
@@ -82,7 +82,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Who is Rhys? */
 .whoisrhys {
-  height: 65vh;
+
   display: flex;
   flex-wrap: wrap;
   background-color: #4C586F;
@@ -103,7 +103,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Skills & Projects */
 .skillsprojects {
-  height: 65vh;
+
   display: flex;
   flex-wrap: wrap;
   background-color: #CBC5C1;
@@ -125,7 +125,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Get in Touch! */
 .getintouch {
-  height: 65vh;
+
   display: flex;
   flex-wrap: wrap;
   background-color: #EBECED;
