@@ -60,15 +60,17 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Home */
 .home {
-  /* display: flex;
-  flex-wrap: wrap; */
   background-color: #3E3E3B;
   padding: 10%;
   background-image: url(images/triangle.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 30%;
+  background-size: 100%;
+}
+
+#greeting {
+
 }
 
 .home h2 {
@@ -77,6 +79,10 @@ nav a:link, nav a:visited, nav a:active {
 
 .home h1 {
   color: #EBECED
+}
+
+#my-logo {
+ max-width: 75%;
 }
 
 /* Who is Rhys? */
@@ -111,7 +117,14 @@ nav a:link, nav a:visited, nav a:active {
   color: #3E3E3B;
 }
 
-.skillsprojects li {
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 700%;
+  color: #4C586F;
+}
+
+.projects {
   color: #4C586F;
 }
 
@@ -130,6 +143,22 @@ nav a:link, nav a:visited, nav a:active {
 
 .getintouch h1 {
   color: #3E3E3B;
+  font-size: 500%;
+  text-align: center;
+  padding: 5%;
+}
+
+.medium-logo, .github-logo, .linkedin-logo, .twitter-logo {
+  height: auto;
+  max-width: 128px;
+  padding: 15%;
+}
+
+.logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Footer */
