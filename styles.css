@@ -1,9 +1,9 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-/* Media Queries */
 @media all and (max-width: 600px) {
   .main-nav {
     flex-wrap: wrap;
@@ -37,6 +37,11 @@
   margin: auto;
 }
 
+.nav-logo {
+  height: 32px;
+  width: 32px;
+}
+
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -60,17 +65,21 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Home */
 .home {
+  display: flex;
+  justify-content: center;
+  text-align: center;
   background-color: #3E3E3B;
   padding: 10%;
   background-image: url(images/triangle.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position: center; 
+  background-position: center;
   background-size: 100%;
 }
 
-#greeting {
-
+.my-logo {
+  height: 256px;
+  width: 256px;
 }
 
 .home h2 {
@@ -91,6 +100,11 @@ nav a:link, nav a:visited, nav a:active {
   flex-wrap: wrap; */
   background-color: #4C586F;
   padding: 10%;
+}
+
+.my-face {
+  height: 256px;
+  width: 256px;
 }
 
 .whoisrhys h1 {
@@ -130,7 +144,7 @@ nav a:link, nav a:visited, nav a:active {
 
 .quiz-app {
   height: auto;
-  max-width: 282.375px;
+  max-width: 100%;
 }
 
 /* Get in Touch! */
