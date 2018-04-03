@@ -69,7 +69,7 @@ nav a:link, nav a:visited, nav a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 40%;
+  background-size: 30%;
 }
 
 .home h2 {
@@ -134,9 +134,17 @@ nav a:link, nav a:visited, nav a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 40%;
+  background-size: 60%;
 }
 
 .getintouch h1 {
   color: #3E3E3B;
+}
+
+/* Footer */
+
+footer {
+  background-color: #3E3E3B;
+  color: #EBECED;
+  text-align: center;
 }
