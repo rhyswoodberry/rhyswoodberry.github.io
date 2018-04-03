@@ -1,0 +1,5 @@
+I wanted my site to have a clean and minimalist look, not only because it looks professional and modern but it is something that I think represents me well. I started with a basic sketch on paper and then after choosing my colour palette, designing my logo and planning each section of my website, I began the proper design. 
+The fonts I chose were both sans-serif because I think they fit with my modern and minimalist design. 
+For the most part I was able to stick to my original design, with a few changes along the way, because I kept it simple and manageable for the timeframe and my current abilities.
+I tried to not use colour that were hard to read, and made sure that if the background was dark, then the text colour would be much brighter.
+I also designed with mobile in mind. Every step I took in the process of making the site I would check to ensure it was as responsive as possible.
