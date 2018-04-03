@@ -69,7 +69,7 @@ nav a:link, nav a:visited, nav a:active {
   justify-content: center;
   text-align: center;
   background-color: #3E3E3B;
-  padding: 10%;
+  padding: 15% 10%;
   background-image: url(images/triangle.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -90,14 +90,8 @@ nav a:link, nav a:visited, nav a:active {
   color: #EBECED
 }
 
-#my-logo {
- max-width: 75%;
-}
-
 /* Who is Rhys? */
 .whoisrhys {
-  /* display: flex;
-  flex-wrap: wrap; */
   background-color: #4C586F;
   padding: 10%;
 }
@@ -121,8 +115,6 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Skills & Projects */
 .skillsprojects {
-  /* display: flex;
-  flex-wrap: wrap; */
   background-color: #CBC5C1;
   padding: 10%;
 }
@@ -149,8 +141,6 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Get in Touch! */
 .getintouch {
-  /* display: flex;
-  flex-wrap: wrap; */
   background-color: #EBECED;
   padding: 10%;
 }
