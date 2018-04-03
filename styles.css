@@ -4,6 +4,12 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 100%;
+}
+
+/* Nav Bar */
 @media all and (max-width: 600px) {
   .main-nav {
     flex-wrap: wrap;
@@ -19,7 +25,6 @@
   }
 }
 
-/* Nav Bar */
 .main-nav {
   display: flex;
   position: fixed;
@@ -75,6 +80,7 @@ nav a:link, nav a:visited, nav a:active {
   background-attachment: fixed;
   background-position: center;
   background-size: 100%;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .my-logo {
@@ -84,10 +90,22 @@ nav a:link, nav a:visited, nav a:active {
 
 .home h2 {
   color: #A2AAB0;
+  font-size: 250%;
 }
 
 .home h1 {
-  color: #EBECED
+  color: #EBECED;
+  font-size: 450%;
+}
+
+@media screen and (max-width: 600px) {
+  .home h2 {
+    font-size: 100%;
+  }
+
+  .home h1 {
+    font-size: 250%;
+  }
 }
 
 /* Who is Rhys? */
@@ -103,14 +121,32 @@ nav a:link, nav a:visited, nav a:active {
 
 .whoisrhys h1 {
   color: #A2AAB0;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 350%;
+}
+
+@media screen and (max-width: 500px) {
+  .whoisrhys h1 {
+    font-size: 200%;
+  }
 }
 
 .about-content {
   color: #EBECED;
+  font-size: 125%;
 }
 
-.whoisrhys li {
+.list-main {
+  color: #CBC5C1;
+  font-size: 175%;
+  font-weight: bolder;
+  list-style: none;
+}
+
+.list-content {
   color:#EBECED;
+  font-size: 125%;
+  list-style: none;
 }
 
 /* Skills & Projects */
@@ -121,6 +157,16 @@ nav a:link, nav a:visited, nav a:active {
 
 .skillsprojects h1 {
   color: #3E3E3B;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 350%;
+}
+
+.skillsprojects li {
+  font-size: 125%;
+}
+
+.skillsprojects h2 {
+  font-size: 200%;
 }
 
 .skills {
@@ -136,7 +182,7 @@ nav a:link, nav a:visited, nav a:active {
 
 .quiz-app {
   height: auto;
-  max-width: 100%;
+  max-width: 50%;
 }
 
 /* Get in Touch! */
@@ -147,6 +193,7 @@ nav a:link, nav a:visited, nav a:active {
 
 .getintouch h1 {
   color: #3E3E3B;
+  font-family: 'Open Sans', sans-serif;
   font-size: 500%;
   text-align: center;
   padding: 5%;
@@ -171,4 +218,5 @@ footer {
   background-color: #3E3E3B;
   color: #EBECED;
   text-align: center;
+  padding: 1%;
 }
