@@ -60,9 +60,8 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Home */
 .home {
-
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: #3E3E3B;
   padding: 10%;
   background-image: url(images/triangle.png);
@@ -82,9 +81,8 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Who is Rhys? */
 .whoisrhys {
-
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: #4C586F;
   padding: 10%;
 }
@@ -103,9 +101,8 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Skills & Projects */
 .skillsprojects {
-
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: #CBC5C1;
   padding: 10%;
 }
@@ -125,16 +122,10 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Get in Touch! */
 .getintouch {
-
-  display: flex;
-  flex-wrap: wrap;
+  /* display: flex;
+  flex-wrap: wrap; */
   background-color: #EBECED;
   padding: 10%;
-  background-image: url(images/triangle-flip.png);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center; 
-  background-size: 60%;
 }
 
 .getintouch h1 {
