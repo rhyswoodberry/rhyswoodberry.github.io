@@ -19,7 +19,7 @@ body {
   }
 }
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 425px) {
   .main-nav > li {
     flex-basis: 100%;
   }
@@ -117,12 +117,15 @@ nav a:link, nav a:visited, nav a:active {
 .my-face {
   height: 256px;
   width: 256px;
+  padding: 5%;
 }
 
 .whoisrhys h1 {
   color: #A2AAB0;
   font-family: 'Open Sans', sans-serif;
   font-size: 350%;
+  text-align: center;
+  padding: 5%;
 }
 
 @media screen and (max-width: 500px) {
@@ -132,8 +135,17 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 .about-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   color: #EBECED;
   font-size: 125%;
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-wrap: wrap;
+  }
 }
 
 .list-main {
