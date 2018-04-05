@@ -55,7 +55,7 @@ nav ul {
 
 nav a {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   color: #EBECED;
   text-decoration: none;
 }
