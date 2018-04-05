@@ -112,12 +112,12 @@ nav a:link, nav a:visited, nav a:active {
 /* Who is Rhys? */
 .whoisrhys {
   background-color: #4C586F;
-  padding: 5%;
+  padding: 3%;
 }
 
 .my-face {
-  height: 256px;
-  width: 256px;
+  height: 538px;
+  width: 538px;
   padding: 5%;
 }
 
@@ -129,9 +129,16 @@ nav a:link, nav a:visited, nav a:active {
   padding: 5%;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   .whoisrhys h1 {
     font-size: 200%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .my-face {
+    height: 300px;
+    width: 300px;
   }
 }
 
