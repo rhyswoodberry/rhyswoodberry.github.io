@@ -113,7 +113,7 @@ nav a:link, nav a:visited, nav a:active {
 /* Who is Rhys? */
 .whoisrhys {
   background-color: #4C586F;
-  padding: 3%;
+  padding: 1%;
 }
 
 .my-face {
@@ -132,7 +132,7 @@ nav a:link, nav a:visited, nav a:active {
 
 @media screen and (max-width: 600px) {
   .whoisrhys {
-    padding: 10%;
+    padding: 13%;
   }
 }
 
