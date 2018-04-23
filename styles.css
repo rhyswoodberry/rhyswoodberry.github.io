@@ -203,6 +203,12 @@ nav a:link, nav a:visited, nav a:active {
   color: #4C586F;
 }
 
+@media screen and (max-width: 600px){
+  .skills {
+    font-size: 500%;
+  }
+}
+
 .projects {
   color: #4C586F;
 }
