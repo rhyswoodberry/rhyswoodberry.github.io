@@ -114,11 +114,12 @@ nav a:link, nav a:visited, nav a:active {
 .whoisrhys {
   background-color: #4C586F;
   padding: 1%;
+  padding-bottom: 7%;
 }
 
 .my-face {
-  height: 538px;
-  width: 538px;
+  height: 535px;
+  width: 535px;
   padding: 5%;
 }
 
@@ -161,6 +162,12 @@ nav a:link, nav a:visited, nav a:active {
   .about-content {
     flex-wrap: wrap;
   }
+}
+
+.edu .work-hist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .list-main {
