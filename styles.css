@@ -10,6 +10,7 @@ body {
 }
 
 /* Nav Bar */
+
 @media all and (max-width: 600px) {
   .main-nav {
     flex-wrap: wrap;
@@ -29,13 +30,14 @@ body {
 
 .main-nav {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
   position: fixed;
   width: 100%;
-  justify-content: space-between;
   background-color: #3E3E3B;
   margin: auto;
   padding: 1%;
-  text-align: center;
 }
 
 .main-nav > li {
@@ -48,14 +50,16 @@ body {
   width: 32px;
 }
 
-nav ul {
+nav ul { 
   list-style-type: none;
   padding: 0%;
 }
 
 nav a {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
   color: #EBECED;
   text-decoration: none;
 }
@@ -80,7 +84,7 @@ nav a:link, nav a:visited, nav a:active {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 100%;
+  background-size: 150%;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -100,9 +104,10 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 @media screen and (max-width: 600px) {
+
   .home h2 {
     font-size: 250%;
-    padding-top: 15%;
+    padding-top: 25%;
   }
 
   .home h1 {
@@ -185,6 +190,10 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Skills & Projects */
 .skillsprojects {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
   background-color: #CBC5C1;
   padding: 5%;
 }
@@ -193,6 +202,7 @@ nav a:link, nav a:visited, nav a:active {
   color: #3E3E3B;
   font-family: 'Open Sans', sans-serif;
   font-size: 350%;
+  text-align: center;
 }
 
 .skillsprojects li {
@@ -201,19 +211,19 @@ nav a:link, nav a:visited, nav a:active {
 
 .skillsprojects h2 {
   font-size: 200%;
+  text-align: center;
 }
 
 .skills {
   display: flex;
   flex-wrap: wrap;
-  font-size: 700%;
+  font-size: 10rem;
   color: #4C586F;
 }
 
-@media screen and (max-width: 600px){
-  .skills {
-    font-size: 500%;
-  }
+.skills i {
+  padding: 5%;
+  text-align: center;
 }
 
 .projects {
@@ -221,8 +231,19 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 .quiz-app {
-  height: auto;
-  max-width: 50%;
+  height: 275px;
+  width: 275px;
+}
+
+@media screen and (max-width: 600px){
+  .skills {
+    font-size: 500%;
+  }
+
+  .quiz-app {
+    height: 200px;
+    width: 200px;
+  }
 }
 
 /* Get in Touch! */
