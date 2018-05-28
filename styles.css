@@ -217,12 +217,12 @@ nav a:link, nav a:visited, nav a:active {
 .skills {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
   font-size: 10rem;
   color: #4C586F;
 }
 
 .skills i {
-  padding: 5%;
   text-align: center;
 }
 
