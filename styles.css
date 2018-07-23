@@ -19,6 +19,9 @@ body {
     flex-basis: 50%;
     padding: 1%;
   }
+  .nav-item {
+    max-width: 5rem;
+  }
 }
 
 @media all and (max-width: 425px) {
@@ -37,8 +40,6 @@ body {
   width: 100vw;
   height: 10vh;
   background-color: #3E3E3B;
-  margin: auto;
-  padding: 1%;
 }
 
 .nav > li {
@@ -49,6 +50,10 @@ body {
 .nav-logo {
   height: 45px;
   width: 45px;
+}
+
+.nav-item {
+  max-width: 7.3rem;
 }
 
 nav ul { 
@@ -64,6 +69,7 @@ nav a {
   justify-content: flex-start;
   flex-direction: row;
   color: #EBECED;
+  font-size: 1rem;
   text-decoration: none;
 }
 
@@ -81,13 +87,14 @@ nav a:link, nav a:visited, nav a:active {
   display: flex;
   justify-content: center;
   text-align: center;
+  height: 100vh;
   background-color: #3E3E3B;
-  padding: 15% 10%;
+  padding: 10%;
   background-image: url(images/triangle.png);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 150%;
+  background-size: 87rem;
   font-family: 'Open Sans', sans-serif;
 }
 
@@ -107,7 +114,9 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 @media screen and (max-width: 600px) {
-
+  .home { 
+  background-size: 49rem;
+  }
   .home h2 {
     font-size: 250%;
     padding-top: 25%;
@@ -238,10 +247,6 @@ nav a:link, nav a:visited, nav a:active {
   flex-direction: column;
   align-items: center;
   padding: 5%;
-}
-
-.project-item h2 {
-  font-size: 2rem;
 }
 
 .project-img {
