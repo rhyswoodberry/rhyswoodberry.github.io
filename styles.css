@@ -12,47 +12,50 @@ body {
 /* Nav Bar */
 
 @media all and (max-width: 600px) {
-  .main-nav {
+  .nav {
     flex-wrap: wrap;
   }
-  .main-nav > li {
+  .nav > li {
     flex-basis: 50%;
     padding: 1%;
   }
 }
 
 @media all and (max-width: 425px) {
-  .main-nav > li {
+  .nav > li {
     flex-basis: 100%;
     padding: 2%;
   }
 }
 
-.main-nav {
+.nav {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
   flex-direction: row;
   position: fixed;
-  width: 100%;
+  width: 100vw;
+  height: 10vh;
   background-color: #3E3E3B;
   margin: auto;
   padding: 1%;
 }
 
-.main-nav > li {
+.nav > li {
   flex: 1;
   margin: auto;
 }
 
 .nav-logo {
-  height: 32px;
-  width: 32px;
+  height: 45px;
+  width: 45px;
 }
 
 nav ul { 
   list-style-type: none;
   padding: 0%;
+  color: #EBECED;
+  text-decoration: none;
 }
 
 nav a {
@@ -129,7 +132,7 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 .whoisrhys h1 {
-  color: #A2AAB0;
+  color: #EBECED;
   font-family: 'Open Sans', sans-serif;
   font-size: 350%;
   text-align: center;
@@ -144,7 +147,7 @@ nav a:link, nav a:visited, nav a:active {
 
 @media screen and (max-width: 600px) {
   .whoisrhys h1 {
-    font-size: 200%;
+    font-size: 2.3rem;
   }
 }
 
@@ -190,10 +193,6 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Skills & Projects */
 .skillsprojects {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-items: center;
   background-color: #CBC5C1;
   padding: 5%;
 }
@@ -201,12 +200,8 @@ nav a:link, nav a:visited, nav a:active {
 .skillsprojects h1 {
   color: #3E3E3B;
   font-family: 'Open Sans', sans-serif;
-  font-size: 350%;
+  font-size: 4rem;
   text-align: center;
-}
-
-.skillsprojects li {
-  font-size: 125%;
 }
 
 .skillsprojects h2 {
@@ -215,32 +210,64 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 .skills {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
   font-size: 10rem;
   color: #4C586F;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .skills i {
-  text-align: center;
+  padding: 2rem;
 }
 
 .projects {
   color: #4C586F;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.quiz-app {
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+}
+
+.project-item h2 {
+  font-size: 2rem;
+}
+
+.project-img {
   height: 275px;
   width: 275px;
 }
 
 @media screen and (max-width: 600px){
-  .skills {
-    font-size: 500%;
+  .skillsprojects h1 {
+    font-size: 2.3rem;
   }
 
-  .quiz-app {
+  .skills {
+    font-size: 5.7rem;
+    padding: 3%;
+  }
+
+  .skills i {
+    padding: 0.5rem;
+  }
+
+  .projects {
+    flex-direction: column;
+  }
+
+  .project-img {
     height: 200px;
     width: 200px;
   }
@@ -260,17 +287,30 @@ nav a:link, nav a:visited, nav a:active {
   padding: 5%;
 }
 
-.medium-logo, .github-logo, .linkedin-logo, .twitter-logo {
+.logo {
   height: auto;
   max-width: 128px;
   padding: 15%;
+  flex-grow: 1;
 }
 
 .logos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .getintouch h1 {
+    font-size: 2.3rem;
+  }
+
+  .logo {
+    max-width: 7rem;
+    padding: 10%;
+  }
 }
 
 /* Footer */
