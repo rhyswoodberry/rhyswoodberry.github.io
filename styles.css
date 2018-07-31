@@ -133,9 +133,14 @@ nav a:link, nav a:visited, nav a:active {
 }
 
 .my-face {
-  height: 535px;
-  width: 535px;
-  padding: 5%;
+  height: 450px;
+  width: 450px;
+  margin: 2rem;
+}
+
+.text {
+  margin-right: 2rem;
+  text-align: center;
 }
 
 .whoisrhys h1 {
@@ -150,18 +155,17 @@ nav a:link, nav a:visited, nav a:active {
   .whoisrhys {
     padding: 13%;
   }
-}
 
-@media screen and (max-width: 600px) {
   .whoisrhys h1 {
     font-size: 2.3rem;
+    margin-bottom: 1rem;
   }
-}
 
-@media screen and (max-width: 600px) {
   .my-face {
     height: 280px;
     width: 280px;
+    margin: 0rem;
+    margin-bottom: 2rem;
   }
 }
 
