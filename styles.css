@@ -33,8 +33,6 @@ body {
 
 .nav {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
   flex-direction: row;
   position: fixed;
   width: 100vw;
@@ -64,13 +62,13 @@ nav ul {
 }
 
 nav a {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
-  flex-direction: row;
   color: #EBECED;
   font-size: 1rem;
   text-decoration: none;
+}
+
+nav img {
+  margin-left: 0.5rem;
 }
 
 nav li a:hover {
