@@ -140,7 +140,7 @@ nav a:link, nav a:visited, nav a:active {
 
 .text {
   margin-right: 2rem;
-  text-align: center;
+  text-align: left;
 }
 
 .whoisrhys h1 {
@@ -166,6 +166,11 @@ nav a:link, nav a:visited, nav a:active {
     width: 280px;
     margin: 0rem;
     margin-bottom: 2rem;
+  }
+
+  .text { 
+    margin: 0rem;
+    text-align: center;
   }
 }
 
