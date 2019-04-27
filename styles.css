@@ -9,6 +9,10 @@ body {
   font-size: 100%;
 }
 
+.main-body {
+  background-color: #3E3E3B
+}
+
 /* Nav Bar */
 
 @media all and (max-width: 600px) {
@@ -127,7 +131,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Who is Rhys? */
 .whoisrhys {
-  background-color: #4C586F;
+  background-color: #3E3E3B;
   padding: 1%;
   padding-bottom: 7%;
 }
@@ -227,7 +231,7 @@ nav a:link, nav a:visited, nav a:active {
 
 .skills {
   font-size: 10rem;
-  color: #4C586F;
+  color: #3E3E3B;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -287,7 +291,7 @@ nav a:link, nav a:visited, nav a:active {
 
 /* Get in Touch! */
 .getintouch {
-  background-color: #EBECED;
+  background-color: #CBC5C1;
   padding: 5% 10% 15%;
 }
 
